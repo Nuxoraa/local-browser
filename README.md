@@ -1,2 +1,31 @@
-# local-browser
-A program for raising sites on the inside of the network
+# PyWeb Creator & Browser
+
+![Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-informational)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+PyWeb Creator & Browser is a lightweight desktop application that allows you to create, preview, manage, and locally host static HTML websites through a graphical interface. The app features a dark-themed UI, built-in mini-browser, and a local threaded HTTP server.
+
+## Features
+
+- Create and edit HTML sites with live preview
+- Local HTTP server on `http://<your-ip>:8000`
+- Save, open, and delete your sites
+- Share sites via URL or QR code
+- Dark mode interface with tabbed layout
+- No external browser or editor required
+
+## Technologies Used
+
+- Python 3.x
+- Tkinter (standard GUI)
+- http.server (for serving content)
+- qrcode (QR generation)
+- Pillow (image conversion for QR codes)
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install pillow qrcode
