@@ -13,7 +13,7 @@ PyWeb Creator & Browser is a lightweight desktop application that allows you to 
 - Save, open, and delete your sites
 - Share sites via URL or QR code
 - Dark mode interface with tabbed layout
-- No external browser or editor required
+- 
 
 ## Technologies Used
 
@@ -22,6 +22,8 @@ PyWeb Creator & Browser is a lightweight desktop application that allows you to 
 - http.server (for serving content)
 - qrcode (QR generation)
 - Pillow (image conversion for QR codes)
+## About the project
+This project is a hosting of sites in the inner network
 
 ## Installation
 
